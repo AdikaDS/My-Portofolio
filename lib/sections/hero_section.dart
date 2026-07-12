@@ -352,7 +352,7 @@ class HeroSection extends StatelessWidget {
                   ),
                   child: ClipOval(
                     child: Image.asset(
-                      'my_profile.jpg',
+                      'assets/my_profile.jpg',
                       fit: BoxFit.cover,
                       errorBuilder: (context, error, stackTrace) {
                         return Center(
